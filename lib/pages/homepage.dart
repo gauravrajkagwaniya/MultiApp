@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_signup/main.dart';
 import 'package:login_signup/pages/login.dart';
+import 'package:login_signup/pages/olotexi.dart';
 import 'weekly.dart';
 import 'calender.dart';
 import 'myorder.dart';
@@ -18,9 +19,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-          child: Text('Choose Date'),
-        ),
+        title: Text('Choose Date'),
+        centerTitle: true,
+
       ),
       drawer: Drawer(
         child: new ListView(
@@ -60,6 +61,16 @@ class _HomePageState extends State<HomePage> {
                 Navigator.of(context).pop();
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => MyOrder()));
+              },
+            ),
+            new Divider(),
+            ListTile(
+              title: new Text("Ollo Cabs"),
+              trailing: new Icon(Icons.local_taxi),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => OloTexi()));
               },
             ),
             new Divider(),

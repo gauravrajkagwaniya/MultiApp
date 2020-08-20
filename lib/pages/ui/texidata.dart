@@ -1,0 +1,1 @@
+class TexiData{  final String name;  TexiData(this.name);}

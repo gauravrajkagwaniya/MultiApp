@@ -16,6 +16,7 @@ class _RegiState extends State<Regi> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Sign Up'),
+        centerTitle: true,
       ),
       body: Container(
           decoration: BoxDecoration(
@@ -31,7 +32,18 @@ class _RegiState extends State<Regi> {
                   key: _formKey,
                   child: Column(
                     children: <Widget>[
-                      Text('create account'),
+                      Padding(
+                        padding: const EdgeInsets.all(9.0),
+                        child: Text('Create an account', style: TextStyle( fontSize: 30,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.yellowAccent,
+                            shadows:[Shadow(color: Colors.brown,blurRadius: 2.0,offset: Offset(4,1))
+                            ]
+
+
+
+                        ),),
+                      ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: TextFormField(
