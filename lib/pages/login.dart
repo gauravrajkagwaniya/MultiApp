@@ -30,8 +30,6 @@ class _LogInState extends State<LogIn> {
                   image: AssetImage('assets/images/login.jpg'), fit: BoxFit.cover,)
               //image
               ),
-          padding: EdgeInsets.all(10.0),
-
             child: SingleChildScrollView(
               child: Container(
                 child: Form(

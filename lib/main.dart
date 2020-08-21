@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.blue,
-        accentColor: Colors.black,
-        buttonColor: Colors.lightBlueAccent,
+        primarySwatch: Colors.yellow,
+        accentColor: Colors.grey,
+        buttonColor: Colors.black,
       ),
 //       routes: {
 //         '/': (BuildContext context) => LogIn(),

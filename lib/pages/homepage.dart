@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_signup/main.dart';
 import 'package:login_signup/pages/login.dart';
-import 'package:login_signup/pages/olotexi.dart';
+import 'package:login_signup/pages/ollocabs.dart';
 import 'weekly.dart';
 import 'calender.dart';
 import 'myorder.dart';
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => OloTexi()));
+                    MaterialPageRoute(builder: (context) => OlloCabs()));
               },
             ),
             new Divider(),
