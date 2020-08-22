@@ -1,0 +1,1 @@
+class TaxiData{  final String src;  final String des;  final String date;  final String time;  final String status;  TaxiData({this.src, this.des, this.date, this.time, this.status});}
