@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:login_signup/main.dart';
-import 'package:login_signup/pages/login.dart';
-import 'package:login_signup/pages/ollo_cabs.dart';
-import 'weekly.dart';
-import 'calender.dart';
-import 'my_order.dart';
+import 'auth/login.dart';
+import 'cabui/ollo_cabs.dart';
+import 'weekviewui/weekly.dart';
+import 'calenderui/calender.dart';
+import 'orderui/my_order.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class HomePage extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:login_signup/pages/login.dart';
+import 'file:///F:/AndroidStudioProjects/login_signup/lib/presentation/auth/login.dart';
 
 class Regi extends StatefulWidget {
   @override
